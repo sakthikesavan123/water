@@ -1,5 +1,5 @@
 set :application, 'deploy_test'     # app name
-	set :repo_url, 'git@github.com:aravind-manoharan97/rails-app.git'   # git repo url
+	set :repo_url, 'git@github.com:sakthikesavan123/water.git'   # git repo url
 	set :deploy_to, '/var/www/deploy_test'    # app folder in server
 	set :keep_releases, 2
 	set :format, :pretty
