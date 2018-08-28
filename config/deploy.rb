@@ -5,8 +5,6 @@ set :application, 'deploy_test'     # app name
 	set :format, :pretty
 	set :log_level, :debug
 	set :pty, true
-	set :linked_dirs, %w{bin log tmp/pids tmp/cache tmp/sockets
-	vendor/bundle public/system public/pdfs}
 	set :stages, %w(production development)
 	set :default_stage, "development"    # choosen development stage
 
